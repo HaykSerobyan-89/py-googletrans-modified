@@ -294,8 +294,7 @@ class Translator:
             return result
 
         data, response = self._translate(text, 'en', 'auto', kwargs)
-        print(f"Data: {data}")
-        print(f"Response: {response}")
+        print(f"Google API response data : {data}")
         # actual source language that will be recognized by Google Translator when the
         # src passed is equal to auto.
         src = ''
