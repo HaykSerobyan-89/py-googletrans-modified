@@ -1,0 +1,5 @@
+/.pypirc
+/build/
+/dist/
+/googletrans_modified.egg-info/*
+
